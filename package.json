@@ -1,0 +1,22 @@
+{
+  "name": "@hubelia/panoscope-api-examples",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@ory/client": "^1.1.41",
+    "@types/node": "^18.17.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "nuxt": "^3.6.5",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  }
+}
