@@ -3,10 +3,11 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "NODE_OPTIONS='' nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "post-install": "nuxt prepare",
+    "postinstall": "patch-package"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -18,5 +19,12 @@
     "nuxt": "^3.6.5",
     "prettier": "^3.0.0",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "patch-package": "^8.0.0",
+    "postinstall-postinstall": "^2.1.0"
+  },
+  "resolutions": {
+    "vite": "4.5.3"
   }
 }
