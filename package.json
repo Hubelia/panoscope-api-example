@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "NODE_OPTIONS='' nuxt dev",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "post-install": "nuxt prepare",
@@ -25,6 +25,7 @@
     "postinstall-postinstall": "^2.1.0"
   },
   "resolutions": {
-    "vite": "4.5.3"
+    "vite": "4.5.3",
+    "axios": "0.28.0"
   }
 }
