@@ -16,16 +16,12 @@
     "@types/node": "^18.17.0",
     "eslint": "^8.45.0",
     "eslint-plugin-vue": "^9.15.1",
-    "nuxt": "^3.12.4",
+    "nuxt": "3.15.4",
     "prettier": "^3.0.0",
     "typescript": "^5.1.6"
   },
   "dependencies": {
     "patch-package": "^8.0.0",
     "postinstall-postinstall": "^2.1.0"
-  },
-  "resolutions": {
-    "vite": "4.5.3",
-    "axios": "0.28.0"
   }
 }
