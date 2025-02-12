@@ -23,5 +23,11 @@
   "dependencies": {
     "patch-package": "^8.0.0",
     "postinstall-postinstall": "^2.1.0"
+  },
+  "resolutions":{
+    "**/serialize-javascript": "6.0.2",
+    "**/axios": "0.28.0",
+    "**/esbuild":"0.25.0",
+    "**/nanoid":"3.3.8"
   }
 }
