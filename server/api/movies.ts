@@ -12,7 +12,14 @@ export default defineEventHandler(async () => {
       'api-key': apiKey,
       'X-Session-Token': sessionToken
     }
-  }).then(res => res.json()).then(res => res.data)
+
+  }).then(res => res.json()).then((res) => {
+    if (Object.hasOwn(res, 'error')) {
+      console.error(res)
+      throw new Error(`Error fetching movies\n + ${res.error.message}`)
+    }
+    return res.data
+  })
 
   return movies
 })
